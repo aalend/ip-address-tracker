@@ -1,0 +1,7 @@
+.site-head__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--size-4);
+  padding-block-start: var(--size-8);
+}

@@ -1,0 +1,10 @@
+{
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "css",
+  "jsxSingleQuote": true,
+  "semi": true,
+  "singleAttributePerLine": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}

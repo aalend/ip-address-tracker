@@ -1,0 +1,21 @@
+.card {
+  padding-block-start: var(--size-10);
+}
+
+.card__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--size-5);
+  padding: var(--size-6) var(--size-3);
+  background-color: var(--gray-8);
+  text-align: center;
+  border-radius: var(--radius-2);
+}
+
+@media (min-width: 786px) {
+  .card__inner {
+    flex-direction: row;
+  }
+}

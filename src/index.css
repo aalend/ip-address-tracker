@@ -1,0 +1,36 @@
+/* the props */
+@import '../node_modules/open-props/open-props.min.css';
+
+/* optional imports that use the props */
+@import '../node_modules/open-props/normalize.min.css';
+@import '../node_modules/open-props/buttons.min.css';
+
+.container {
+  --max-width: 100ch;
+  --padding-inline: 16px;
+
+  max-width: min(var(--max-width), 100% - var(--padding-inline) * 2);
+  margin-inline: auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.leaflet-container {
+  min-height: 50vh;
+  border-radius: var(--radius-3);
+}
+
+.loading-error {
+  padding-block: var(--size-2);
+  font-size: var(--size-4);
+  background-color: var(--red-6);
+}
